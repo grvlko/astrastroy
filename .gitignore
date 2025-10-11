@@ -1,3 +1,7 @@
+# IDE
+.idea/
+.vscode/
+
 # NPM
 node_modules
 npm-debug.log
@@ -19,5 +23,3 @@ Desktop.ini
 Thumbs.db
 .Spotlight-V100
 .Trashes
-.idea
-.vscode/
