@@ -1,0 +1,43 @@
+<div class="contact-form">
+  {% if site.data.contact.form_url %}
+    {% assign url = site.data.contact.form_url %}
+      <form action={{ url }} method="POST">
+        <div class="mb-3">
+          <label for="formName" class="form-label">Имя</label>
+          <input type="text" class="form-control" id="formName" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="formPhone" class="form-label">Телефон</label>
+          <input type="tel" class="form-control" id="formPhone" name="phone">
+        </div>
+        <div class="mb-3">
+          <label for="formEmail" class="form-label">Электронная почта</label>
+          <input type="email" class="form-control" id="formEmail" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="formMessage" class="form-label">Комментарий</label>
+          <textarea class="form-control" id="formMessage" name="message"></textarea>
+        </div>
+        <div class="text-danger mb-3" id="contactError" style="display: none;">
+          Укажите телефон или почту
+        </div>
+        <div class="mb-3 form-check">
+          <input 
+            type="checkbox" 
+            class="form-check-input" 
+            id="privacyAgree" 
+            name="privacy_agreement"
+            required>
+          <label class="form-check-label" for="privacyAgree">
+            Соглашаюсь с <a href="/policy" target="_blank">политикой конфиденциальности</a>
+          </label>
+        </div>
+        <div class="text-danger mb-3" id="privacyError" style="display: none;">
+          Необходимо согласие с политикой конфиденциальности
+        </div>
+        <button type="submit" class="button">Отправить заявку</button>
+      </form>
+  {% else %}
+    <p>Форма не доступна</p>
+  {% endif %}
+</div>

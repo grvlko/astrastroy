@@ -1,16 +1,9 @@
 ---
-title: Contact
+title: Связаться
 layout: contact
-description: Contact
+description: Свяжитесь с нами для консультации по строительно-монтажным работам в Кирове. Работаем с частными и юридическими лицами, госзаказчиками.
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+Наша команда готова проконсультировать вас по любым вопросам, связанным с монтажом инженерных сетей, электромонтажными работами и строительно-монтажными проектами. Мы работаем с частными и юридическими лицами, включая государственные учреждения.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+> **Обратная связь**: Для оперативного решения вопросов звоните по указанным телефонам. Мы работаем с 2003 года, сотрудничаем с надежными поставщиками и выполняем госконтракты для Минздрава, УФСИН, УВД и департамента образования.

@@ -1,3 +1,8 @@
-email: 'jekyllserif@example.com'
-phone: '1800 123 000'
+email: 'babushkina.elsa@yandex.ru'
+phones:
+  - phone: '+79229443059'
+    weight: 1
+  - phone: '+79536905000'
+    weight: 2
 contact_button_link: 'contact'
+form_url: 'https://formspree.io/f/mnnzpwdv'

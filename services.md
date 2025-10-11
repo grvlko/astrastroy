@@ -1,12 +1,14 @@
 ---
-title: Services
+title: Услуги
 layout: services
-description: Services
+description: Профессиональные строительно-монтажные работы и монтаж инженерных сетей в Кирове. Электромонтаж, вентиляция с рекуперацией, госконтракты. Расчет стоимости бесплатно.
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---
 
-# Services that grow with your business
+# Услуги, которые обеспечивают надежность и долговечность 
 
-Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.
+Наша компания специализируется на комплексных решениях для создания инженерных систем и строительно-монтажных работ. Мы предлагаем услуги, которые масштабируются под задачи клиента --- от небольших частных проектов до крупных государственных объектов.
+
+Мы используем качественные материалы от проверенных поставщиков и применяем современные технологии, чтобы каждый проект соответствовал высоким стандартам надежности и энергоэффективности.
