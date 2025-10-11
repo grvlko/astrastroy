@@ -1,5 +1,4 @@
-baseurl: ''
-url: 'https://grvlko.github.io/astrastroy'
+baseurl: '/astrastroy'
 permalink: pretty
 title: 'Астрастрой'
 
