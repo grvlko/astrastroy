@@ -2,12 +2,15 @@ main:
   - name: "Услуги"
     url: "/services/"
     weight: 1
+  - name: "Проекты"
+    url: "/projects/"
+    weight: 2
   - name: "О нас"
     url: "/about/"
-    weight: 2
+    weight: 3
   - name: "Связаться"
     url: "/contact/"
-    weight: 3
+    weight: 4
 
 footer:
   - name: "В начало"
