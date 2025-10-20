@@ -1,14 +1,14 @@
 <div class="call">
   <div class="call-box-top">
     {% if site.data.contact.phones %}
-      {% assign phones = site.data.contact.phones | sort: 'weight' %}
-        <div class="call-phone"><strong>Телефоны: </strong>
-          {% for item in phones %}
-            <a href="tel:{{ item.phone }}">
-              {{ item.phone }}
-            </a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
-        </div>
+    {% assign phones = site.data.contact.phones | sort: 'weight' %}
+    <div class="call-phone"><strong>Телефоны: </strong>
+      {% for item in phones %}
+      <a href="tel:{{ item.phone }}">
+        {{ item.phone }}
+      </a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </div>
     {% endif %}
     {% if site.data.contact.email %}
     <div class="call-email"><strong>Почта: </strong>
@@ -18,9 +18,9 @@
     </div>
     {% endif %}
   </div>
-    {% if include.show_button %}
-      <div class="call-box-bottom">
-        <a href="{{ site.data.contact.contact_button_link }}" class="button">Связаться</a>
-      </div>
-    {% endif %}
+  {% if include.show_button %}
+  <div class="call-box-bottom">
+    <a href="{{ site.data.contact.contact_button_link | relative_url }}" class="button">Связаться</a>
+  </div>
+  {% endif %}
 </div>

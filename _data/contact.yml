@@ -4,5 +4,5 @@ phones:
     weight: 1
   - phone: '+79536905000'
     weight: 2
-contact_button_link: 'contact'
+contact_button_link: '/contact/'
 form_url: 'https://formspree.io/f/mnnzpwdv'

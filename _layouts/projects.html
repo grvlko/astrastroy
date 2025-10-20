@@ -3,74 +3,30 @@ layout: default
 bodyClass: "page-projects"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="intro intro-compact">
+  <div class="container">
     <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
-            <div class="service service-single">
-                <h1 class="title">{{page.title}}</h1>
-                <div class="content">{{content}}</div>
-            </div>
-        </div>
+      <div class="col-12 col-md-8">
+        {{ content }}
+      </div>
     </div>
+  </div>
 </div>
 
-<div class="container pb-6 pb-md-10">
-    <div class="row justify-content-center">
-        {% for project in site.data.projects %}
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <img 
-                alt="{{ project.title }}" 
-                src="{{ '/images/projects/' | append: project.title | append: '.jpg' | relative_url }}"
-                class="img-fluid w-100"
-                style="height: 250px; object-fit: cover; border-radius: 8px;"
-            />
+<div class="strip">
+  <div class="container pb-6 pb-md-10">
+    <div class="row justify-content-start">
+      {% for project in site.data.projects %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="service service-summary">
+          <div class="service-content">
+            <img alt="{{ project.title }}"
+              src="{{ '/images/projects/' | append: project.title | append: '.jpg' | relative_url }}"
+              class="img-fluid w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" />
+          </div>
         </div>
-        {% endfor %}
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
-
-<!-- <div class="container pb-6 pb-md-10">
-    <div class="row justify-content-center">
-        {% assign projects = site.data.projects.list | sort: 'weight' %}
-        {% for project in projects %}
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card border-0">  <!-- Используем стандартные классы Bootstrap -->
-                <div class="card-body p-0">
-                    <img 
-                        alt="{{ project.title }}" 
-                        src="{{ site.baseurl }}/images/projects/{{ project.title }}.jpg"
-                        class="img-fluid w-100"
-                        style="height: 250px; object-fit: cover; border-radius: 8px;"
-                    />
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div> -->
-
-<!-- <div class="container pb-6 pb-md-10">
-    <div class="row justify-content-center">
-        {% assign projects = site.data.projects.list | sort: 'weight' %}
-        {% for project in projects %}
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="project project-summary">
-                <div class="project-image">
-                    <img 
-                        alt="{{ project.title }}" 
-                        src="{{ '/images/projects/' | relative_url }}{{ project.title }}.jpg"
-                        class="img-fluid"
-                        style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;"
-                    />
-                </div>
-                <!-- <div class="project-content mt-2">
-                    <h3 class="project-title">
-                        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-                    </h3>
-                    <p class="project-meta text-muted small">{{ project.location }} • {{ project.year }}</p>
-                </div> -->
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div> -->
