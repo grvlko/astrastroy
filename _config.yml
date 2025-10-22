@@ -1,6 +1,7 @@
-baseurl: '/astrastroy/'
+baseurl: ''
 permalink: pretty
-title: 'Астрастрой'
+title: 'СтройПодрядСервис'
+url: 'https://stroypodryadservis.ru'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
