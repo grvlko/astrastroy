@@ -1,8 +1,0 @@
-<svg width="300" height="32" viewBox="0 0 300 32" xmlns="http://www.w3.org/2000/svg">
-    <text x="0" y="25" 
-          textLength="300" 
-          lengthAdjust="spacingAndGlyphs"
-          style="fill: #2f2f41; font-family: 'Playfair Display'; font-size: 30px; font-weight: 800;">
-        Строй<tspan style="fill: #e5261f;">Подряд</tspan>Сервис
-    </text>
-</svg>
