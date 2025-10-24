@@ -1,10 +1,6 @@
 # IDE
-.idea/
 .vscode/
 
-# NPM
-node_modules
-npm-debug.log
 
 # Jekyll
 _site
@@ -25,4 +21,5 @@ Thumbs.db
 .Trashes
 
 # Other
-.git*
+.gitignore
+submit-indexnow.sh
